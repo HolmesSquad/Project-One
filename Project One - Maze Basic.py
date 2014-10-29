@@ -1,11 +1,10 @@
 #import modules
 from Tkinter import *
-import random
 #Set Initial Velocities
 vx = 0.0 #x velocity
 vy = 10.0 #y velocity
 #Create Window
-main = Tk(className=" Obstacle Course")
+main = Tk(className=" Basic Obstacle Course")
 canvas = Canvas(main, width=800, height=660, bg='white')
 canvas.pack()
 #Create Borders
