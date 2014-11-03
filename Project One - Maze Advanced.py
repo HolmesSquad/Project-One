@@ -49,7 +49,7 @@ ob15 = canvas.create_rectangle (280, 320, 300, 380, fill = 'red')
 ob15x1, ob15y1, ob15x2, ob15y2 = canvas.coords(ob15)
 ob16 = canvas.create_rectangle (240, 440, 360, 460, fill = 'red')
 ob16x1, ob16y1, ob16x2, ob16y2 = canvas.coords(ob16)
-ob17 = canvas.create_rectangle (280, 500, 420, 520, fill = 'red')
+ob17 = canvas.create_rectangle (240, 500, 420, 520, fill = 'red')
 ob17x1, ob17y1, ob17x2, ob17y2 = canvas.coords(ob17)
 ob18 = canvas.create_rectangle (280, 560, 460, 580, fill = 'red')
 ob18x1, ob18y1, ob18x2, ob18y2 = canvas.coords(ob18)
@@ -103,6 +103,10 @@ ob42 = canvas.create_rectangle (780, 280, 800, 340, fill = 'red')
 ob42x1, ob42y1, ob42x2, ob42y2 = canvas.coords(ob42)
 ob43 = canvas.create_rectangle (580, 320, 780, 340, fill = 'red')
 ob43x1, ob43y1, ob43x2, ob43y2 = canvas.coords(ob43)
+#Create Lights
+lg1 = canvas.create_rectangle (130, 310, 150, 330, fill = 'green')
+lg2 = canvas.create_rectangle (130, 510, 150, 530, fill = 'green')
+lg3 = canvas.create_rectangle (190, 610, 210, 630, fill = 'green')
 #Set Arena Boundaries
 x_max = 900.0
 x_min = 100.0 
