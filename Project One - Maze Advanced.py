@@ -103,4 +103,9 @@ ob42 = canvas.create_rectangle (780, 280, 800, 340, fill = 'red')
 ob42x1, ob42y1, ob42x2, ob42y2 = canvas.coords(ob42)
 ob43 = canvas.create_rectangle (580, 320, 780, 340, fill = 'red')
 ob43x1, ob43y1, ob43x2, ob43y2 = canvas.coords(ob43)
+#Set Arena Boundaries
+x_max = 900.0
+x_min = 100.0 
+y_min = 100.0
+y_max = 760.0
 main.mainloop()
